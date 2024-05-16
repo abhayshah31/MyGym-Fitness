@@ -26,7 +26,7 @@ At MyGym Fitness, we believe that a healthy lifestyle is the cornerstone of happ
 
 ![Home Page](/images/screenshots/home.PNG)
 <!-- ![Explore Page](/images/screenshots/explore.PNG) -->
-![Classes Page](/images/screenshots/classes.PNG)
+<!-- ![Classes Page](/images/screenshots/classes.PNG) -->
 <!-- ![Payment Page](/images/screenshots/payments.PNG) -->
 <!-- ![Contact Page](/images/screenshots/contact.PNG) -->
 ![Plans Page](/images/screenshots/plans.PNG)
