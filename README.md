@@ -24,9 +24,14 @@ At MyGym Fitness, we believe that a healthy lifestyle is the cornerstone of happ
 
 ## 📸 Screenshots
 
-![Home Page](link-to-screenshot-homepage)
-![Classes Page](link-to-screenshot-classes)
-![Trainer Profile](link-to-screenshot-trainer-profile)
+![Home Page](/images/screenshots/home.PNG)
+![Explore Page](/images/screenshots/explore.PNG)
+![Classes Page](/images/screenshots/classes.PNG)
+![Payment Page](/images/screenshots/payments.PNG)
+![Contact Page](/images/screenshots/contact.PNG)
+![Plans Page](/images/screenshots/plans.PNG)
+![Membership Form](/images/screenshots/membership.PNG)
+![Payment Page](/images/screenshots/payment.PNG)
 
 ## 📚 Documentation
 
