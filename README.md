@@ -41,6 +41,6 @@ Buy our Gym services and be a member of MyGym Fitness.
 
 ## 📬 Contact
 
-- **LinkedIn:** [Abhay Prashar](https://www.linkedin.com/abhayshah31)
+- **LinkedIn:** [Abhay Prashar](https://www.linkedin.com/in/abhayshah31/)
 - **Email:** prasharshah31@gmail.com
 - **Twitter:** [@abhayshah31](https://twitter.com/abhayshah31)
