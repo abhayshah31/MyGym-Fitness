@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Subscription Plans</title>
+  <link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/aos.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      padding-top: 110px;
+      background-color: #f8f9fa;  
+      background-image: url(/images/class/risen-wang-20jX9b35r_M-unsplash.jpg);
+    }
+
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+  .plan {
+      background: linear-gradient(135deg, #1B1B1B, #121212);  
+      color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 1px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      width: 300px;  
+      transition: transform 0.3s;
+      position: relative;
+    }
+
+  .plan:hover {
+      transform: translateY(-5px);
+    }
+
+  .price {
+      font-size: 24px;
+      color: #f13a11;
+    }
+
+  .features {
+      margin-top: 20px;
+    }
+
+    .features p {
+   margin: 5;
+   color: #fff;
+   margin-right: 30px;
+} 
+
+.navbar {
+      padding: 8px 20px;  
+    }
+
+  .navbar-brand {
+      font-size: 24px;
+    }
+    button {
+      background-color: #f13a11;  
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: li0px;
+      margin-bottom: 14px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #f13a11;
+    }
+
+    /* Form styles*/
+ .modal-content {
+      padding: 2rem 2rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      
+    }
+
+ .modal-header,
+ .modal-body,
+ .modal-footer {
+      border: 0;
+      padding: 0;
+    }
+
+ .membership-form a {
+      color: var(--primary-color);
+    }
+
+ .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+
+    }
+
+ .modal-title {
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
+    .h2{
+        font-size: 40px;
+        font-weight: var(--font-weight-bold);
+        letter-spacing: -2px;
+
+    }
+
+ .form-group {
+      margin-bottom: 0 rem;
+      margin-top: 0 rem;
+
+    }
+
+
+button.choose-plan-btn {
+  background-color: #f13a11;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+
+button.choose-plan-btn:hover {
+  background-color: #d12f0d;
+}
+
+ .form-control {
+      display: block;
+      width: 100%;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+ .form-control:focus {
+      color: #495057;
+      background-color: #fff;
+      border-color: #80bdff;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+ .btn-primary {
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      width: 100%;
+      vertical-align: middle;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: 0.25rem;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+ .btn-primary:hover {
+      color: #fff;
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+
+ .btn-primary:focus {
+      box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">MyGym Fitness</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link smoothScroll">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/index.html#about" class="nav-link smoothScroll">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.myfitnesspal.com/" class="nav-link smoothScroll">Tracker</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.muscleblaze.com/" class="nav-link smoothScroll">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="/index.html#contact" class="nav-link smoothScroll">Contact</a>
+          </li>
+        </ul>
+        <ul class="social-icon ml-lg-3">
+          <li><a href="https://www.facebook.com/armaan.grover.904" class="fa fa-facebook"></a></li>
+          <li><a href="https://twitter.com/abhayshah31" class="fa fa-twitter"></a></li>
+          <li><a href="https://www.instagram.com/abhayshah31/" class="fa fa-instagram"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Plans container -->
+  <div class="container">
+    <div class="plan" data-plan="basic" data-payment-url="https://rzp.io/l/mygym-basicplan">
+      <h3>Basic Plan</h3>
+      <p class="price">₹ 1,200/-</p>
+      <ul class="features">
+        <li>Flexibility in fitness</li>
+        <li>One personalize training session for new joiners</li>
+        <li>Access to 2 yoga classes in a month</li>
+      </ul>
+      <div class="button-container">
+      <button>Choose Plan</button>
+    </div>
+  </div>
+  
+    <div class="plan" data-plan="annual" data-payment-url="https://rzp.io/l/mygym-annualplan">
+      <h3>Annual Plan</h3>
+      <p class="price">₹ 12,000/-</p>
+      <ul class="features">
+        <li>12 months access to all our latest equipments</li>
+        <li>Nutritional guidance</li>
+        <li>Personal Trainer</li>
+        <li>Long term commitment</li>
+        <li>5 free training sessions</li>
+      </ul>
+      <button>Choose Plan</button>
+    </div>
+  
+    <div class="plan" data-plan="seasonal" data-payment-url="https://rzp.io/l/mygym-seasonalplan">
+      <h3>Seasonal Plan</h3>
+      <p class="price">₹ 6,000/-</p>
+      <ul class="features">
+        <li>Basic training sessions</li>
+        <li>Eligible for 1 fitness challenge competition</li>
+        <li>Access to yoga/Zumba classes once a week</li>
+        <li>3 free training sessions</li>
+      </ul>
+      <button>Choose Plan</button>
+    </div>
+  </div>
+  
+  
+  <!-- Membership Form -->
+  <div class="modal fade" id="membership-data" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="membershipFormLabel">Membership Form</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form method="post" action="" name="membership-data" id="membership-data">
+            <input type="hidden" name="plan" id="plan">
+            <div class="form-group">
+              <input type="text" class="form-control" name="Name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="Email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" name="Phone" pattern="[0-9]{10}" placeholder="Your mobile number" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="4" name="Address" placeholder="Your Address" required></textarea>
+            </div>
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="signup-agree" required>
+                <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the <a href="terms.html" class="terms-link">Terms &amp;Conditions</a></label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit-button" name="submit">Become a member</button>
+            <div id="loading" class="loading-container">
+              <div class="loading-spinner"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/aos.js"></script>
+  <script src="/js/main.js"></script>
+<script src="/js/membership-data.js"></script>
+  <!-- Membership Form JS -->
+  <script>
+    $('.choose-plan-btn').click(function() {
+      const plan = $(this).data('plan');
+      $('#plan').val(plan);
+      $('#membership-data').modal('show');
+    });
+
+    $('#membership-data').on('hidden.bs.modal', function() {
+      $(this).find('form')[0].reset();
+    });
+  </script>
+</body>
+</html>
