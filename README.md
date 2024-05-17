@@ -33,14 +33,14 @@ At MyGym Fitness, we believe that a healthy lifestyle is the cornerstone of happ
 ![Membership Form](/images/screenshots/membership.PNG)
 ![Payment Page](/images/screenshots/payment.PNG)
 
-## 📚 Documentation
+## 🚴‍♂️ Usage
 
-For detailed information on how to set up and use the MyGym Fitness website, please refer to our [Documentation](link-to-documentation).
+Open your browser and go to [https://abhayshah31.github.io/MyGym-Fitness/](https://abhayshah31.github.io/MyGym-Fitness/).
+Explore various features like booking classes, tracking progress, and more.
+Buy our Gym services and be a member of MyGym Fitness.
 
-## 💻 Installation
+## 📬 Contact
 
-To get a local copy up and running, follow these simple steps:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/MyGym-Fitness.git
+- **LinkedIn:** [Abhay Prashar](https://www.linkedin.com/in/abhayshah31/)
+- **Email:** prasharshah31@gmail.com
+- **Twitter:** [@abhayshah31](https://twitter.com/abhayshah31)
